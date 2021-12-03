@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/6/67/Microsoft_To-Do_icon.png"
+        type="image/x-icon">
+    <title>ALI | To Do App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="container">
+
+    <section class="animate__animated animate__fadeInDown col-lg-12 col-md-10 col-sm-8" id="main-section">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <h2 id="heading">To-Do Application</h2>
+        <div class="input-div">
+            <input type="text" id="item" placeholder="Enter Your To-Do's Here">
+            <div class="btn-div">
+                <button onclick="addItem()" class="btn btn-success"><b>Add Task</b></button>
+                <button onclick="deleteAll()" class="btn btn-success"><b>Delete All</b></button>
+            </div>
+        </div>
+        <br>
+        <div id="content">
+            <ul id="ul-element">
+                
+            </ul>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
